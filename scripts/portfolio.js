@@ -10,7 +10,7 @@
     	}else{
     		$mainnav.removeClass('sticky');
     	}
-    	
+
     });
 
     AOS.init({
@@ -20,22 +20,26 @@
       // delay: 100,
     });
 
-    
-// button script
 
+    $('#nav-trigger').click(function (e)
+    {
 
-var $body = $('body');
-var $btnMobileMenu = $('.btn-mobile-menu');
+            if($('nav.mobile').hasClass('active'))
+                {
+                    $('nav.mobile').removeClass('active');
+                    $('#nav-trigger').removeClass('active');
+                    $('#nav-trigger i').removeClass('ham-menu').addClass('ham-menu');
+    //                $('html').removeClass('noscroll');
+    //                $('body').removeClass('noscroll');
 
-// click event handler for the mobile menu button
-$btnMobileMenu.click(function(){
-  
+                }
+            else
+                {
+                    $('nav.mobile').addClass('active');
+                    $('#nav-trigger').addClass('active');
+                    $('#nav-trigger i').removeClass('ham-menu').addClass('ham-menu');
 
-  // toggle the show-mobile-menu class
-  // on the body element
- $body.toggleClass('show-mobile-menu');
-  
-}); // end click event handler for the mobile menu button
-
-
-
+    //                $('html').addClass('noscroll');
+    //                $('body').addClass('noscroll');
+                }
+    });

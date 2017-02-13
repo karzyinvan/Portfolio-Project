@@ -218,6 +218,7 @@ table {
 	display: flex;
 	flex-direction: column;
 }
+<<<<<<< HEAD
 
 .projects img{
 	width: 1000px;
@@ -250,3 +251,5 @@ table {
 				white-space: nowrap;
 				overflow: hidden;
 			}
+=======
+>>>>>>> origin/master

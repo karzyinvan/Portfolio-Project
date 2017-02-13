@@ -118,7 +118,7 @@ table {
 }
 
 .intro h1 span{
-	font-family:;
+	font-family:'kayak_sansregular';
 	font-size:40px;
 	font-weight:bold;
 }
@@ -181,21 +181,6 @@ table {
    	display: none;
    }
 
-.work{
-	text-align: center;
-	font-family:'kayak_sansregular';
-}
-
-.arrow{
-	font-size:30px;
-	text-align:center;
-	padding-top: 30px;
-	font-family:'kayak_sansregular';
-}
-
-.arrow:hover{
-	color: blue;
-}
 
 /*projects*/
 
@@ -224,6 +209,15 @@ table {
 	width: 1000px;
 }
 
+.tools span{
+	background-color: #dac1f2;
+	padding:3px 6px;
+	border-radius: 2px;
+	white-space: nowrap;
+	line-height: 25px;
+	font-size: 12px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
 /*start of media queries*/
 
 /* ----------- iPhone 6 ----------- */

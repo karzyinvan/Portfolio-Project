@@ -150,7 +150,7 @@ table {
     top: 0;
     z-index: 9999;
     padding-top:40px ;
-	background-color:pink;
+	background-color:#d81e91;;
 
 }
 
@@ -193,7 +193,6 @@ table {
         height: 3px;
         transform: scaleX(0);
         background-color: @blue;
-
         transition: transform 0.3s;
     }
 
@@ -221,7 +220,8 @@ table {
 
 .projects{
 	display: flex;
-	background-color: red;
+	background-color:#fff;
+	padding-left:10px;
 
 }
 
@@ -229,7 +229,7 @@ table {
 	display: flex;
 	flex-direction: column;
 }
-<<<<<<< HEAD
+
 
 .projects img{
 	width: 1000px;
@@ -248,7 +248,7 @@ table {
 
 /*button- view live site*/
 button{
-  background:#1AAB8A;
+  background:#d81e91;
   color:#fff;
   border:none;
   position:relative;
@@ -261,7 +261,7 @@ button{
 }
 button:hover{
   background:#fff;
-  color:#1AAB8A;
+  color:#d81e91;
 }
 button:before,button:after{
   content:'';
@@ -270,7 +270,7 @@ button:before,button:after{
   right:0;
   height:2px;
   width:0;
-  background: #1AAB8A;
+  background: #d81e91;
   transition:400ms ease all;
 }
 button:after{
@@ -315,8 +315,7 @@ button:hover:before,button:hover:after{
 				overflow: hidden;
 			}
 =======
->>>>>>> origin/master
-
+/*Tablet*/
 /* Portrait and Landscape */
 @media only screen
   and (min-device-width: 768px)

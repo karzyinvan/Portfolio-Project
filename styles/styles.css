@@ -79,8 +79,6 @@ table {
 
 }
 
-
-
 /* Web Accessibility*/
 .screen-reader-text {
 	clip: rect(1px, 1px, 1px, 1px);
@@ -145,11 +143,11 @@ table {
 
 .main-nav{
 	width: 100%;
-    height: 80px;
-    position: fixed;
-    top: 0;
-    z-index: 9999;
-    padding-top:40px ;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  padding-top:40px ;
 	background-color:#d81e91;;
 
 }
@@ -173,36 +171,10 @@ table {
 .main-nav a:hover,
 		  a:focus,
 		  a:active{
-		display: inline-block;
-    position: relative;
-    text-decoration: none;
-    padding: 10px 0;
-    color: #fff;
+				color:white;
 }
 
 
-
-.link-hover{
-	&:after {
-        content: '';
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: 3px;
-        transform: scaleX(0);
-        background-color: @blue;
-        transition: transform 0.3s;
-    }
-
-    &:hover {
-        &:after {
-            transform: scaleX(1);
-        }
-    }
-}
-}
 	   .btn-mobile-menu{
 	    	display: none;
 	    }
@@ -223,6 +195,10 @@ table {
 	background-color:#fff;
 	padding-left:10px;
 
+}
+.projects h2{
+	font-family:'kayak_sansregular';
+	font-weight: bold;
 }
 
 .content{

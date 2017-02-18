@@ -196,19 +196,24 @@ table {
 	padding-left:10px;
 
 }
-.projects h2{
+.projects h2, h3{
 	font-family:'kayak_sansregular';
 	font-weight: bold;
+	font-size:18px;
 }
 
 .content{
 	display: flex;
 	flex-direction: column;
+	margin-top:50px;
+}
+.projects p{
+	width: 300px;
+	line-height: 1.2;
 }
 
-
 .projects img{
-	width: 1000px;
+	width: 900px;
 }
 
 .tools span{

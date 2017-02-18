@@ -175,10 +175,6 @@ table {
 }
 
 
-	   .btn-mobile-menu{
-	    	display: none;
-	    }
-
 /*projects*/
 
 .container{
@@ -266,6 +262,9 @@ button:hover:before,button:hover:after{
 }
 
 .projects button{
+	height:30px;
+	width: 130px;
+	font-size: 14px;
 
 }
 

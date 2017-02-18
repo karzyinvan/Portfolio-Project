@@ -172,7 +172,7 @@ table {
 
 }
 
- .main-nav a{
+ /*.main-nav a{
 	color:black;
 	text-decoration: none;
 	padding: 10px;
@@ -182,7 +182,7 @@ table {
 		  a:focus,
 		  a:active{
 				color:white;
-}
+}*/
 
 
 /*projects*/
@@ -231,7 +231,7 @@ table {
 	font-size: 12px;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
-/*start of media queries*/
+
 
 /*button- view live site*/
 button{
@@ -278,7 +278,7 @@ button:hover:before,button:hover:after{
 
 }
 
-
+/*start of media queries*/
 /* ----------- iPhone 6 ----------- */
 
 /*Portrait and Landscape*/

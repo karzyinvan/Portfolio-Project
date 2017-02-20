@@ -133,7 +133,7 @@ footer{
 	color:white;
 }
 
-.footer a{
+footer a{
 	color:white;
 }
 
@@ -195,17 +195,6 @@ footer{
 	padding-top:10px;
 	padding-left: 50px;
 }
- /*.main-nav a{
-	color:black;
-	text-decoration: none;
-	padding: 10px;
-
-}
-.main-nav a:hover,
-		  a:focus,
-		  a:active{
-				color:white;
-}*/
 
 
 /*projects*/

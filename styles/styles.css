@@ -128,7 +128,7 @@ table {
 }
 
 footer{
-	background-color:#a62f9b;
+	background-color:#44dfa0;
 	margin-bottom: 50px;
 	color:white;
 }
@@ -181,7 +181,7 @@ footer a{
 
 }
 
-.main-nav ul{
+/*.main-nav ul{
 	margin: 0 auto;
 	display: flex;
 	justify-content: flex-end;
@@ -189,7 +189,7 @@ footer a{
 	padding-right: 25px;
 	font-family:'kayak_sansregular';
 
-}
+}*/
 
 .main-nav h3{
 	padding-top:10px;
@@ -230,10 +230,14 @@ footer a{
 	width: 300px;
 	line-height: 1.2;
 }
-
-.projects img{
-	width: 900px;
+.image{
+	width:600px;
+	margin-left:62px;
 }
+
+/*.projects img{
+	width: 900px;
+}*/
 
 .tools span{
 	background-color:#a3bcd2;
@@ -299,6 +303,13 @@ button:hover:before,button:hover:after{
   and (min-device-width: 375px)
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
+
+		.image{
+			width:350px;
+		}
+		.projects p{
+			display:block;
+
 
 }
 /*Tablet*/

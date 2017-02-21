@@ -163,9 +163,15 @@ footer a{
 	margin-bottom: 50px;
 
 }
-
 .photo{
-	right: 10%;
+	position: relative;
+
+}
+/*hello section*/
+
+.hello{
+	display: flex;
+
 }
 
 /*main navigation*/
@@ -235,9 +241,6 @@ footer a{
 	margin-left:62px;
 }
 
-/*.projects img{
-	width: 900px;
-}*/
 
 .tools span{
 	background-color:#a3bcd2;
@@ -300,32 +303,35 @@ button:hover:before,button:hover:after{
 
 /*Portrait and Landscape*/
 @media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 667px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+  and (min-width: 375px){
 
-		.image{
-			width:350px;
-		}
-		.projects p{
-			display:block;
-
-
+	.image{
+		width: 50%;
 }
+	.projects p{
+		display:block;
+	}
+
 /*Tablet*/
 /* Portrait and Landscape */
 @media only screen
-  and (min-device-width: 768px)
-  and (max-device-width: 1024px)
-  and (-webkit-min-device-pixel-ratio: 1) {
+  and (min-width: 768px){
+
+	.image{
+		width: 50%;
 
 }
+	.projects p{
+		display:block;
+}
 
-/*non-retina screens- laptops/desktops*/
+/*laptops/desktops*/
 @media screen
-  and (min-device-width: 1200px)
-  and (max-device-width: 1600px)
-  and (-webkit-min-device-pixel-ratio: 1) {
+  and (min-width: 1200px){
 
-
+	.image{
+		width: 50%;
+}
+.projects p{
+	display:block;
 }

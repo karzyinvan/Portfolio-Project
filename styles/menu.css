@@ -24,6 +24,7 @@
 .menu-box p{
   padding-top:7px;
   float:right;
+  font-family: 'Noto Serif', serif;
 }
 
 .hamburger {
@@ -156,6 +157,7 @@
   display: block;
   color: #fff;
   font-size: 32px;
+  font-family: 'Noto Serif', serif;
   text-decoration: none;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;

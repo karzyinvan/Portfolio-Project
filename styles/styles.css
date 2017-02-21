@@ -110,9 +110,11 @@ table {
 }
 
 .about {
-	color:green;
+	width:60%;
 	margin-bottom:50px;
 	margin-top:50px;
+	padding-left: 20px;
+	line-height: 1.2;
 }
 .about h2{
 	font-size:16px;
@@ -128,13 +130,19 @@ table {
 }
 
 footer{
-	background-color:#44dfa0;
+	background-color:#1e90ff;
+	height:80px;
 	margin-bottom: 50px;
-	color:white;
 }
 
-footer a{
-	color:white;
+footer p{
+	color: #fffe1e;
+	text-align: center;
+
+}
+
+.social{
+	color:black;
 }
 
 
@@ -145,18 +153,19 @@ footer a{
 }
 
 .intro h1 span{
-	font-family:'kayak_sansregular';
+	font-family: 'Roboto', sans-serif;
 	font-size:40px;
 	font-weight:bold;
 }
 
 .intro h1{
 	font-size: 30px;
-	font-family:'kayak_sansregular';
+	font-family:'Roboto', sans-serif;
 
 }
 
 .intro p{
+	font-family:'Roboto', sans-serif;
 	width: 50%;
 	font-size: 30px;
 	line-height: 28px;
@@ -171,6 +180,7 @@ footer a{
 
 .hello{
 	display: flex;
+	flex-direction: column;
 
 }
 
@@ -183,19 +193,10 @@ footer a{
   top: 0;
   z-index: 100;
   padding-top:40px ;
-	background-color:#d81e91;
+	background-color:#ff1e90;
 
 }
 
-/*.main-nav ul{
-	margin: 0 auto;
-	display: flex;
-	justify-content: flex-end;
-	font-size:20px;
-	padding-right: 25px;
-	font-family:'kayak_sansregular';
-
-}*/
 
 .main-nav h3{
 	padding-top:10px;
@@ -239,6 +240,8 @@ footer a{
 .image{
 	width:600px;
 	margin-left:62px;
+	background-color:#e8e8e8;
+	margin-bottom:10px;
 }
 
 
@@ -255,7 +258,7 @@ footer a{
 
 /*button- view live site*/
 button{
-  background:#d81e91;
+  background:#ff1e90;
   color:#fff;
   border:none;
   position:relative;
@@ -268,7 +271,7 @@ button{
 }
 button:hover{
   background:#fff;
-  color:#d81e91;
+  color:#ff1e90;
 }
 button:before,button:after{
   content:'';
@@ -277,7 +280,7 @@ button:before,button:after{
   right:0;
   height:2px;
   width:0;
-  background: #d81e91;
+  background: #ff1e90;
   transition:400ms ease all;
 }
 button:after{
@@ -297,6 +300,7 @@ button:hover:before,button:hover:after{
 	font-size: 14px;
 
 }
+
 
 /*start of media queries*/
 /* ----------- iPhone 6 ----------- */

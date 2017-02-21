@@ -109,7 +109,8 @@ table {
 	z-index: 100000; /* Above nav*/
 }
 
-.about {
+.about p{
+	font-family:'Roboto', sans-serif;
 	width:60%;
 	margin-bottom:50px;
 	margin-top:50px;
@@ -117,6 +118,7 @@ table {
 	line-height: 1.2;
 }
 .about h2{
+	font-family:'Noto Serif', serif;
 	font-size:16px;
 	font-weight:bold;
 	text-align:center;
@@ -128,14 +130,18 @@ table {
 	text-align: center;
 	margin-bottom: 50px;
 }
+.contact h2{
+	font-family:'Noto Serif', serif;
+}
 
 footer{
-	background-color:#1e90ff;
+	/*background-color:#1e90ff;*/
 	height:80px;
 	margin-bottom: 50px;
 }
 
 footer p{
+	font-family:'Roboto', sans-serif;
 	color: #fffe1e;
 	text-align: center;
 
@@ -144,7 +150,12 @@ footer p{
 .social{
 	color:black;
 }
+.container-2{
+	background: #00d2ff; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #00d2ff , #3a7bd5); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #00d2ff , #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
 
 /*intro heading*/
 .intro{

@@ -245,8 +245,7 @@ margin: 10% 0px 10% 25px;
 	margin-top: 100px;
 }
 .project-image{
-	width:600px;
-	background-color:#e8e8e8;
+	width:550px;
 	padding-bottom:10px;
 }
 
@@ -255,7 +254,6 @@ margin: 10% 0px 10% 25px;
   max-width: 500px;
 	min-width: 250px;
 	padding-left: 15px;
-	padding-top: 75px;
 }
 
 .tools{
@@ -351,11 +349,14 @@ button:hover:before,button:hover:after{
 
 /*laptops/desktops*/
 @media screen
-  and (min-width: 1200px){
+  and (min-width: 910px){
 
 	.image{
 		width: 50%;
 }
 .projects p{
 	display:block;
+}
+.project-content{
+	padding-top: 100px;
 }

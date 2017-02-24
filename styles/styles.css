@@ -165,36 +165,26 @@ footer p{
 .hello{
     display: flex;
     align-items: flex-start;
-    margin-top: 120px;
+    margin: 150px 30px 0px 30px;
 		flex-wrap: wrap;
 }
 
 .hello div,
 .hello img {
-	flex: 1 1 100%;
+		flex: 1 1 100%;
 }
 
-.intro h1 span{
-	font-family: 'Roboto', sans-serif;
+.intro {
+font-family: 'Roboto', sans-serif;
+width: 50%;
+font-size: 30px;
+line-height: 28px;
+}
+
+.intro span{
 	font-size:40px;
 	font-weight:bold;
 }
-
-.intro h1{
-	font-size: 30px;
-	font-family:'Roboto', sans-serif;
-
-}
-
-.intro p{
-	font-family:'Roboto', sans-serif;
-	width: 50%;
-	font-size: 30px;
-	line-height: 28px;
-	margin-bottom: 50px;
-
-}
-
 
 /*main navigation*/
 
@@ -211,7 +201,7 @@ footer p{
 
 
 .main-nav h3{
-	padding-top:10px;
+	font-size: 2em;
 	padding-left: 50px;
 	color:white;
 	font-family: 'Noto Serif', serif;

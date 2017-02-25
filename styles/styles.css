@@ -109,12 +109,36 @@ img {
 .contact{
 	display: flex;
 	justify-content: center;
-	text-align: center;
+  text-align: center;
 	margin-bottom: 50px;
 }
 .contact-item{
-	width:300px;
+	text-align: center;
+	width:33%;
+
 }
+.contact-item a{
+	display: block;
+	width: 100px;
+	height: 100px;
+	background-color: #d80048;
+}
+
+.twitter{
+	-webkit-mask-image: url(../images/twitter.svg);
+	mask-image: url(../images/twitter.svg);
+}
+
+.email{
+	-webkit-mask-image: url(../images/email.svg);
+	mask-image: url(../images/email.svg);
+}
+
+.linkedin{
+	-webkit-mask-image: url(../images/linkedin.svg);
+	mask-image: url(../images/linkedin.svg);
+}
+
 
 footer{
 	text-align: center;

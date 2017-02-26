@@ -84,7 +84,31 @@ img {
 }
 
 
+
 /*main navigation*/
+
+.about{
+	background: #00d2ff; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #00d2ff , #3a7bd5); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient( #EDE574 , #fffac6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.about p{
+	font-family:'Roboto', sans-serif;
+	width:60%;
+	margin-bottom:50px;
+	margin-top:50px;
+	padding-left: 20px;
+	line-height: 1.2;
+}
+.about h2{
+	font-family:'Noto Serif', serif;
+	font-size:22px;
+	font-weight:bold;
+	text-align:center;
+	line-height: 1.2;
+	margin:0  auto;
+>>>>>>> Stashed changes
 
 .main-nav{
 	width: 100%;
@@ -155,12 +179,12 @@ margin: 10% 0px 10% 25px;
 	flex-wrap: wrap;
 	justify-content: center;
 	background-color:#fff;
-	max-width: 1100px;
+	max-width: 1400px;
 	margin: auto;
 	margin-top: 100px;
 }
 .project-image{
-	max-width:550px;
+	max-width:700px;
 	padding-bottom:10px;
 }
 

@@ -121,7 +121,7 @@ img {
 }
 
 .main-nav h3{
-	font-size: 2em;
+	font-size: 1.5em;
 	padding-left: 50px;
 	color:white;
 	font-family: 'Noto Serif', serif;
@@ -297,8 +297,8 @@ button:hover:before,button:hover:after{
 
 .contact-item a{
 	display: inline-block;
-	width: 100px;
-	height: 100px;
+	width: 75px;
+	height: 75px;
 }
 
 .contact-item a svg{
@@ -356,6 +356,7 @@ footer{
 		width: 50%;
 
 }
+
 	.projects p{
 		display:block;
 }
@@ -365,23 +366,39 @@ footer{
 		flex: 1 1 50%;
 	}
 
+	.project-content{
+		padding-top: 75px;
+	}
+	.project-image{
+		max-width:550px;
+		padding-bottom:10px;
+	}
 
 }
 
 /*laptops/desktops*/
 @media screen
-  and (min-width: 910px){
+  and (min-width: 1060px){
 
 	.image{
 		width: 50%;
 }
+
+.main-nav h3{
+	font-size: 2em;
+}
+
 .projects p{
 	display:block;
 }
 .project-content{
 	padding-top: 100px;
 }
+.project-image{
+	max-width:750px;
+	padding-bottom:10px;
+}
 .contact-item a{
-	width: 125px;
-	height: 125px;
+	width: 100px;
+	height: 100px;
 }

@@ -318,6 +318,11 @@ footer{
 	font-size: 15px;
 }
 
+footer a{
+	color:#5482ab;
+	padding-bottom:5px;
+}
+
 /*start of media queries*/
 /* ----------- iPhone 6 ----------- */
 

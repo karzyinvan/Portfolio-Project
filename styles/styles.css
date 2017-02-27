@@ -112,10 +112,10 @@ h2{
 
 h2:before {
 display: inline-block;
-    height: 1px;
+    height: 2px;
     width: 100px;
     margin-right: 10px;
-    background-color: #ed6464;
+    background-color: #d80048;
     content: '';
 }
 
@@ -151,16 +151,9 @@ display: inline-block;
 	display: flex;
   flex-wrap:wrap;
 	margin-top: 120px;
-	margin-bottom:100px;
+	margin-bottom: 100px;
   width:100%;
 
-}
-
-.intro {
-font-family: 'Roboto', sans-serif;
-width:100%;
-font-size: 30px;
-line-height: 28px;
 }
 
 .photo{
@@ -171,6 +164,7 @@ line-height: 28px;
 /*about section*/
 .about{
 	width: 100%;
+
 }
 
 .about p{
@@ -192,6 +186,9 @@ margin: 0px 0px 50px 25px;
 .projects h3, h4{
 	font-family:'Noto Serif', serif;
 	font-weight: bold;
+	font-size:20px;
+}
+.projects h4{
 	font-size:18px;
 }
 
@@ -199,6 +196,7 @@ margin: 0px 0px 50px 25px;
 	line-height: 1.2;
 	margin-bottom: 10px;
 	font-size:16px;
+	font-family:Lato,sans-serif;
 }
 
 .projects-container{
@@ -247,7 +245,7 @@ margin: 0px 0px 50px 25px;
 }
 
 button{
-  background:#ff1e90;
+  background:#d80048;
   color:#fff;
   border:none;
   position:relative;
@@ -260,7 +258,7 @@ button{
 }
 button:hover{
   background:#fff;
-  color:#ff1e90;
+  color:#d80048;
 }
 button:before,button:after{
   content:'';
@@ -269,7 +267,7 @@ button:before,button:after{
   right:0;
   height:2px;
   width:0;
-  background: #ff1e90;
+  background: #d80048;
   transition:400ms ease all;
 }
 button:after{
@@ -315,24 +313,9 @@ button:hover:before,button:hover:after{
 	fill: #5482ab;
 }
 
-.twitter{
-	-webkit-mask-image: url(../images/twitter.svg);
-	mask-image: url(../images/twitter.svg);
-}
-
-.email{
-	-webkit-mask-image: url(../images/email.svg);
-	mask-image: url(../images/email.svg);
-}
-
-.linkedin{
-	-webkit-mask-image: url(../images/linkedin.svg);
-	mask-image: url(../images/linkedin.svg);
-}
-
-
 footer{
 	text-align: center;
+	font-size: 15px;
 }
 
 /*start of media queries*/
@@ -342,9 +325,6 @@ footer{
 @media only screen
   and (min-width: 375px){
 
-	.image{
-		width: 50%;
-}
 	.projects p{
 		display:block;
 	}
@@ -354,9 +334,10 @@ footer{
 /* Portrait and Landscape */
 @media only screen and (min-width: 768px){
 
-  .intro{
+	.main-nav h3{
+				font-size: 2.2em;
+	}
 
-  }
 	.about {
 		width: 50%;
 	}
@@ -364,10 +345,6 @@ footer{
 		width: 50%;
 		height: auto;
   }
-
-	.image{
-		width: 50%;
-}
 
 	.projects p{
 		display:block;
@@ -386,13 +363,7 @@ footer{
 @media screen
   and (min-width: 1060px){
 
-	.image{
-		width: 50%;
-}
 
-.main-nav h3{
-	font-size: 2em;
-}
 
 .projects p{
 	display:block;
